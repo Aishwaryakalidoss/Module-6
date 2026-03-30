@@ -26,14 +26,30 @@ To write a Python program to create a class `Student` with the private members `
 ### PROGRAM
 
 ```
+# Reg.No- 212222060008
+# Name- AISHWARYA K
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
 
+    def show(self):
+        print("Name: ", self.name, "Salary:", self.salary)
+
+    def work(self):
+        print(self.name, "is working on NLP")
+
+emp = Employee("Jessa", 8000)
+emp.show()
+emp.work()
 
 
 ```
 
 ### OUTPUT
+<img width="558" height="192" alt="image" src="https://github.com/user-attachments/assets/b550f634-b61a-443d-80e3-3ac31bd8a90d" />
 
 
 ### RESULT
-
+Thus, the Python program to create an Employee class with instance variables and instance methods has been successfully executed and the output is verified.
 
