@@ -32,11 +32,27 @@ To write a Python program to perform division of two complex numbers using the b
 ### PROGRAM
 
 ```
+# Reg.No- 212222060008
+# Name- AISHWARYA K
+class A:
+    def __init__(self, val):
+        self.val = val
 
+    def __gt__(self, other):
+        if self.val > other.val:
+            print("ob1 is greater than ob2")
+        else:
+            print("ob2 is greater than ob1")
+
+ob1 = A(2)
+ob2 = A(3)
+ob1 > ob2
 ```
 
 ### OUTPUT
+<img width="523" height="148" alt="image" src="https://github.com/user-attachments/assets/047282f4-89b3-4e9f-88d7-8f9ac12b9dfb" />
 
 
 ### RESULT
 
+Thus, the Python program to overload a comparison operator using class A has been successfully executed and the output is verified.
