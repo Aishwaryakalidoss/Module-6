@@ -34,10 +34,35 @@ To write a Python program to create a Parent class `Bird` and inherit two child 
 ### PROGRAM
 
 ```
+# Reg.No- 212222060008
+# Name- AISHWARYA K
+class A:
+    def __init__(self, val):
+        self.val = val
 
+    def __add__(self, other):
+        return A(self.val + other.val)
+
+    def __str__(self):
+        return str(self.val)
+
+a = int(input())
+b = int(input())
+c = input()
+d = input()
+
+obj1 = A(a)
+obj2 = A(b)
+obj3 = A(c)
+obj4 = A(d)
+
+print(": ", obj1 + obj2)
+print(": ", obj3 + obj4)
 ```
 
 ### OUTPUT
+<img width="430" height="225" alt="image" src="https://github.com/user-attachments/assets/95ff4c17-ad7c-425e-a43f-5e87ee4f075b" />
 
 
 ### RESULT
+Thus, the Python program to overload the + operator for adding two objects has been successfully executed and the output is verified.
